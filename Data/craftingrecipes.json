@@ -1,0 +1,13 @@
+{
+    "Changes": [
+         {
+                        "LogName": "Crafting Recipe Edits",
+                        "Action": "EditData",
+                        "Target": "Data/CraftingRecipes",
+                        "Entries": {
+                                "{{ModId}}_Molcajete": "(O)330 2 (O)178 1 {{ModId}}_Brick 4/Home/{{ModId}}_Molcajete/false/none/{{ModId}}_Molcajete/default",
+                                 "{{ModId}}_ToastedAcorns": "309 2 382 1 22 1/Home/{{ModId}}_ToastedAcorns/false/none/{{ModId}}_ToastedAcorns/s Foraging 1"
+                        }
+                }
+    ]
+}

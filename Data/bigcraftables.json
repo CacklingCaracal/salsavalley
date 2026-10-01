@@ -1,0 +1,25 @@
+{
+	"Changes": [
+		
+			{
+				
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/craftables",
+            "FromFile": "Assets/craftables.png"
+			},
+
+			{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"{{ModId}}_HornoOven": {
+					"Name": "{{ModId}}_HornoOven",
+					"DisplayName": "Horno Oven",
+					"Description": "A traditional Mexican oven used for baking bread and roasting meats.",
+					"Texture": "Mods\\{{ModId}}\\craftables",
+					"SpriteIndex": 0
+                }
+            }
+        }
+    ]
+}

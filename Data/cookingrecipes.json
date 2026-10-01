@@ -1,0 +1,55 @@
+{
+    "Changes": [
+
+        {
+      "LogName": "Salsa Recipes With Molcajete",
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "When": {
+        "Enable Molcajete in Salsa Recipes": "true"
+      },
+      "Entries": {
+        "{{ModId}}_Salsa": "256 2 260 1 399 1 {{ModId}}_Molcajete 1/{{ModId}}_Salsa/default",
+        "{{ModId}}_GrapeSalsa": "398 2 252 1 250 1 260 1 {{ModId}}_Molcajete 1/{{ModId}}_GrapeSalsa/default",
+        "{{ModId}}_MelonSalsa": "254 2 399 1 260 2 {{ModId}}_Molcajete 1/{{ModId}}_MelonSalsa/default",
+        "{{ModId}}_PumpkinSalsa": "276 2 260 1 282 1 399 {{ModId}}_Molcajete 1/{{ModId}}_PumpkinSalsa/default",
+        "{{ModId}}_CornSalsa": "270 2 256 1 260 1 250 {{ModId}}_Molcajete 1/{{ModId}}_CornSalsa/default",
+        "{{ModId}}_BlueberrySalsa": "258 2 278 1 300 1 250 1 260 {{ModId}}_Molcajete 1/{{ModId}}_BlueberrySalsa/default",
+        "{{ModId}}_FiddleheadSalsa": "254 2 260 1 256 1 270 {{ModId}}_Molcajete 1/{{ModId}}_FiddleheadSalsa/default",
+        "{{ModId}}_PowdermelonSalsa": "powdermelon 260 399 634 278 264 {{ModId}}_Molcajete 1/{{ModId}}_PowdermelonSalsa/default",
+        "{{ModId}}_StarfruitSalsa": "268 266 260 152 {{ModId}}_Molcajete 1/{{ModId}}_StarfruitSalsa/default",
+        "{{ModId}}_RadishSalsa": "264 1 266 247 248 260 {{ModId}}_Molcajete 1/{{ModId}}_RadishSalsa/default",
+        "{{ModId}}_PomegranateSalsa": "637 1 276 2 260 1 638 1{{ModId}}_Molcajete 1/{{ModId}}_PomegranateSalsa/default",
+        "{{ModId}}_PeachSalsa": "636 1 635 1260 2 248 1 {{ModId}}_Molcajete 1/{{ModId}}_PeachSalsa/default",
+        "{{ModId}}_TortillaChip": "(O)270 2 (O)382 1/25 5/{{ModId}}_TortillaChip 1/default/Tortillachip",
+        "{{ModId}}_PlateofChips": "(O){{ModId}}_TortillaChip 2/{{ModId}}_PlateofChips 1/default/Plateofchips"
+
+      }
+    },
+{     "LogName": "Salsa Recipes Without Molcajete",
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "When": {
+        "Enable Molcajete in Salsa Recipes": "false"
+      },
+      "Entries": {
+        "{{ModId}}_Salsa": "256 2 260 1 399 1/{{ModId}}_Salsa/default",
+        "{{ModId}}_GrapeSalsa": "398 2 252 1 250 1 260 1/{{ModId}}_GrapeSalsa/default",
+        "{{ModId}}_MelonSalsa": "254 2 399 1 260 2/{{ModId}}_MelonSalsa/default",
+        "{{ModId}}_PumpkinSalsa": "276 2 260 1 282 1 399/{{ModId}}_PumpkinSalsa/default",
+        "{{ModId}}_CornSalsa": "270 2 256 1 260 1 250/{{ModId}}_CornSalsa/default",
+        "{{ModId}}_BlueberrySalsa": "258 2 278 1 300 1 250 1 260/{{ModId}}_BlueberrySalsa/default",
+        "{{ModId}}_FiddleheadSalsa": "254 2 260 1 256 1 270/{{ModId}}_FiddleheadSalsa/default",
+        "{{ModId}}_PowdermelonSalsa": "powdermelon 260 399 634 278 264/{{ModId}}_PowdermelonSalsa/default",
+        "{{ModId}}_StarfruitSalsa": "268 266 260 152/{{ModId}}_StarfruitSalsa/default",
+        "{{ModId}}_RadishSalsa": "264 1 266 247 248 260/{{ModId}}_RadishSalsa/default",
+        "{{ModId}}_PomegranateSalsa": "637 276 260 638/{{ModId}}_PomegranateSalsa/default",
+        "{{ModId}}_PeachSalsa": "636 635 260 248/{{ModId}}_PeachSalsa/default",
+        "{{ModId}}_TortillaChip": "(O)270 2 (O)382 1/25 5/{{ModId}}_TortillaChip 1/default/Tortillachip",
+        "{{ModId}}_PlateofChips": "(O){{ModId}}_TortillaChip 2/{{ModId}}_PlateofChips 1/default/Plateofchips"
+
+      }
+    }
+  
+]
+}

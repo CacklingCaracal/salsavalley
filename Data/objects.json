@@ -1,0 +1,197 @@
+ {
+    "Changes": [
+   
+       
+        {
+            "LogName": "Add Food",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_TomatoSalsa": {
+                    "Name": "{{ModId}}_TomatoSalsa",
+                    "DisplayName": "TomatoSalsa",
+                    "Description": "A fresh and zesty salsa made with ripe tomatoes and spices.",
+                    "Edibility": "69",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 220,
+                    "IsDrink": false,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_GrapeSalsa": {
+                    "Name": "{{ModId}}_GrapeSalsa",
+                    "DisplayName": "{{ModId}}_GrapeSalsa",
+                    "Description": "A sweet and tangy salsa made with fresh grapes and a hint of spice.",
+                    "Edibility": "130",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 400,
+                    "IsDrink": true,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 1
+                },
+                    "{{ModId}}_MelonSalsa": {
+                    "Name": "{{ModId}}_MelonSalsa",
+                    "DisplayName": "MelonSalsa",
+                    "Description": "Sweet and spicy.",
+                    "Edibility": "35",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "IsDrink":false,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 2
+                },
+                  "{{ModId}}_PumpkinSalsa": {
+                    "Name": "{{ModId}}_PumpkinSalsa",
+                    "DisplayName": "Pumpkin Salsa",
+                    "Description": "A delicious blend of pumpkin and spices.",
+                    "Edibility": "350",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "IsDrink": false,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 3
+                },
+                "{{ModId}}_CornSalsa": {
+                    "Name": "{{ModId}}_CornSalsa",
+                    "DisplayName": "Corn Salsa",
+                    "Description": "A fresh and zesty salsa made with sweet corn and spices.",
+                    "Edibility": "130",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 400,
+                    "IsDrink": true,
+
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 4
+            },
+             "{{ModId}}_BlueberrySalsa": {
+                    "Name": "{{ModId}}_BlueberrySalsa",
+                    "DisplayName": "Blueberry Salsa",
+                    "Description": "A sweet salsa made with fresh blueberries and a mild kick.",
+                    "Edibility": "130",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "IsDrink": false,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 5
+                },
+                 "{{ModId}}_FiddleheadSalsa": {
+                    "Name": ".FiddleheadSalsa",
+                    "DisplayName": "Fiddlehead Salsa",
+                    "Description": "A zesty salsa made with fiddlehead ferns and spices.",
+                    "Edibility": "350",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "IsDrink": false,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 6
+                
+                },
+                 "{{ModId}}_PowdermelonSalsa": {
+                    "Name": "{{ModId}}_PowdermelonSalsa",
+                    "DisplayName": "Powdermelon Salsa",
+                    "Description": "A fresh and fruity salsa made with powdermelon and spices.",
+                    "Edibility": "350",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "IsDrink": false,
+
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 7
+                },
+                 "{{ModId}}_StarfruitSalsa": {
+                    "Name": "{{ModId}}_StarfruitSalsa",
+                    "DisplayName": "Starfruit Salsa",
+                    "Description": "A tropical salsa made with starfruit and spices.",
+                    "Edibility": "350",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "IsDrink": false,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 8
+                },
+                 "{{ModId}}_RadishSalsa": {
+                    "Name": "{{ModId}}_RadishSalsa",
+                    "DisplayName": "Radish Salsa",
+                    "Description": "A spicy salsa made with fresh radishes and herbs.",
+                    "Edibility": "350",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                     "IsDrink": false,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 9
+                  
+                },
+                 "{{ModId}}_PomegranateSalsa": {
+                    "Name": "{{ModId}}_PomegranateSalsa",
+                    "DisplayName": "Pomegranate Salsa",
+                    "Description": "A sweet and tangy salsa made with fresh pomegranates.",
+                    "Edibility": "350",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 10,
+                    "IsDrink": false
+                 },
+                  "{{ModId}}_PeachSalsa": {
+                    "Name": "{{ModId}}_PeachSalsa",
+                    "DisplayName": "Peach Salsa",
+                    "Description": "A sweet and spicy salsa made with fresh peaches.",
+                    "Edibility": "350",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "IsDrink": false,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 11
+                  },
+                  "{{ModId}}_TortillaChip": {
+                    "Name": "{{ModId}}_TorttillaChip",
+                    "DisplayName": "Tortilla Chip",
+                    "Description": "A singular cruncy delight.",
+                    "Edibility": "5",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "IsDrink": false,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 13
+                },
+                "{{ModId}}_Masa": {
+                    "Name": "{{ModId}}_Masa",
+                    "DisplayName": "Masa",
+                    "Description": "A dough made from ground corn, used to make tortillas and tamales.",
+                    "Edibility": "5",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "IsDrink": false,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 14
+                },
+                "{{ModId}}_PlateofChips": {
+                    "Name": "{{ModId}}_PlateofChips",
+                    "DisplayName": "Plate of Chips",
+                    "Description": "A serving of crispy tortilla chips.",
+                    "Edibility": "5",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "IsDrink": false,
+                    "Texture": "Mods\\{{ModId}}\\Food",
+                    "SpriteIndex": 15
+                }
+            }
+        }
+    ]
+}

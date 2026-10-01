@@ -1,0 +1,11 @@
+{
+    "Name": "Salsa Valley",
+    "Author": "CacklingCaracal",
+    "Version": "1.5",
+    "Description": "Itsa gottang fiesta.",
+    "UniqueID": "CacklingCaracal.SalsaValley",
+    "UpdateKeys": [37434],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

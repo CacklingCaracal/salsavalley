@@ -1,0 +1,44 @@
+{
+    "Format": "2.9.0",
+    "ConfigSchema": {
+        "Enable Molcajete in Salsa Recipes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Determines whether the Molcajete is required for Salsa Recipes."	
+        },
+    },
+    "Changes": [
+      
+       
+       
+    
+        {
+            "LogName": "Object Includes",
+            "Action": "Include",
+            "FromFile": "Data/Objects.json"
+        },
+{
+    "LogName": "Cooking Recipe Includes",
+    "Action": "Include",
+    "FromFile": "Data/cookingrecipes.json"
+},
+{
+    "LogName": "Crafting Recipe Includes",
+    "Action": "Include",
+    "FromFile": "Data/craftingrecipes.json"
+},
+{
+    "LogName": "Big Craftable Includes",
+    "Action": "Include",
+    "FromFile": "Data/bigcraftables.json"
+},
+   
+      {
+      "LogName": "LoadFood",
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/food",
+      "FromFile": "Assets/food.png"
+    }
+
+    ]
+}
