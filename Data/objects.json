@@ -190,8 +190,20 @@
                     "IsDrink": false,
                     "Texture": "Mods\\{{ModId}}\\Food",
                     "SpriteIndex": 15
-                }
+                },
+                "{{ModId}}_Brick": {
+                    "Name": "{{ModId}}_Brick",
+                    "DisplayName": "Brick",
+                    "Description": "A solid block of clay, used for building and crafting.",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -1,
+                    "Price": 350,
+                    "IsDrink": false,
+                    "Texture": "Mods\\{{ModId}}\\Objects",
+                    "SpriteIndex": 16
             }
         }
+    }
     ]
 }
