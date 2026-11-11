@@ -1,12 +1,6 @@
 {
     "Format": "2.9.0",
-    "ConfigSchema": {
-        "Enable Molcajete in Salsa Recipes": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Determines whether the Molcajete is required for Salsa Recipes."	
-        },
-    },
+   
     "Changes": [
       
        
@@ -23,14 +17,9 @@
     "FromFile": "Data/cookingrecipes.json"
 },
 {
-    "LogName": "Crafting Recipe Includes",
+    "LogName": "Load Cookbook",
     "Action": "Include",
-    "FromFile": "Data/craftingrecipes.json"
-},
-{
-    "LogName": "Big Craftable Includes",
-    "Action": "Include",
-    "FromFile": "Data/bigcraftables.json"
+    "FromFile": "Data/book.json"
 },
    
       {

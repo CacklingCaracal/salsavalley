@@ -1,0 +1,837 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/PeacefulEnd.Parchment/Books",
+            "Entries": {
+                "{{ModId}}_SalsaCookbook": {
+                    "Format": "1.12.0",
+                    "Id": "{{ModId}}_SalsaCookbook",
+                    "Pages": [
+                        {
+                            "Id": "cover",
+                            "Elements": [
+                                {
+                                    "Type": "Title",
+                                    "Text": "Salsa Cookbook",
+                                    "Alignment": "Center"
+                                },
+                                {
+                                    "Type": "Heading",
+                                    "Text": "A Farmer's Guide to Homemade Salsa",
+                                    "Alignment": "Center"
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "welcome",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Welcome to the Salsa Kitchen!",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 4
+                                },
+                                {
+                                    "Type": "Divider",
+                                    "Sizing": "Fill"
+                                },
+                                {
+                                    "Type": "Paragraph",
+                                    "Text": "A good salsa brings a little brightness, sweetness, or heat to the table. This cookbook gathers the recipes developed for Salsa Valley, from familiar tomato salsa to more unusual fruit-filled combinations.",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Paragraph",
+                                    "Text": "Each recipe lists the ingredients and the amount needed. Gather everything before you begin, then let the cooking begin!",
+                                    "Alignment": "Center"
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "recipe-index",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Recipes",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 4
+                                },
+                                {
+                                    "Type": "Divider",
+                                    "Sizing": "Fill"
+                                },
+                                {
+                                    "Type": "Paragraph",
+                                    "Text": "Tomato Salsa • Grape Salsa • Melon Salsa • Pumpkin Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 3
+                                },
+                                {
+                                    "Type": "Paragraph",
+                                    "Text": "Corn Salsa • Blueberry Salsa • Fiddlehead Salsa • Powdermelon Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 3
+                                },
+                                {
+                                    "Type": "Paragraph",
+                                    "Text": "Starfruit Salsa • Radish Salsa • Pomegranate Salsa • Peach Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 3
+                                },
+                                {
+                                    "Type": "Paragraph",
+                                    "Text": "Hazelnut Marshmallow Salsa • Marshmallow",
+                                    "Alignment": "Center"
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "tomato-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Tomato Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "2 Tomatoes",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Hot Pepper",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Spring Onion",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "grape-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Grape Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "2 Grapes",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Rhubarb",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Kale",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Hot Pepper",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "melon-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Melon Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "2 Melons",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Spring Onion",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "2 Hot Peppers",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "pumpkin-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Pumpkin Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "2 Pumpkins",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Hot Pepper",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Cranberries",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Spring Onion",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "corn-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Corn Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "2 Corn",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Tomato",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Hot Pepper",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Kale",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "blueberry-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Blueberry Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "2 Blueberries",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Bok Choy",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Amaranth",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Kale",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Hot Pepper",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "fiddlehead-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Fiddlehead Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "2 Melons",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Hot Pepper",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Tomato",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Corn",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "powdermelon-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Powdermelon Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Powdermelon",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Hot Pepper",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Spring Onion",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Apricot",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Bok Choy",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Radish",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "starfruit-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Starfruit Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Starfruit",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Red Cabbage",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Hot Pepper",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Seaweed",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "radish-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Radish Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Radish",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Red Cabbage",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Oil",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Garlic",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Hot Pepper",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "pomegranate-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Pomegranate Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Pomegranate",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "2 Pumpkins",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Hot Pepper",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Cherry",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "peach-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Peach Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Peach",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Orange",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "2 Hot Peppers",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Garlic",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "hazelnut-marshmallow-salsa",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Hazelnut Marshmallow Salsa",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "2 Hazelnuts",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Hot Pepper",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Yam",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Marshmallow",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Id": "marshmallow",
+                            "Elements": [
+                                {
+                                    "Type": "Heading",
+                                    "Text": "Marshmallow",
+                                    "Alignment": "Center",
+                                    "SpacingAfter": 6
+                                },
+                                {
+                                    "Type": "Panel",
+                                    "Width": 148,
+                                    "Sizing": "Fixed",
+                                    "Padding": 6,
+                                    "Alignment": "Center",
+                                    "Children": [
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "Ingredients",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 4
+                                        },
+                                        {
+                                            "Type": "Divider",
+                                            "Sizing": "Fill"
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Sugar",
+                                            "Alignment": "Center",
+                                            "SpacingAfter": 2
+                                        },
+                                        {
+                                            "Type": "Paragraph",
+                                            "Text": "1 Sap",
+                                            "Alignment": "Center"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

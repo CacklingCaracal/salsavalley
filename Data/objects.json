@@ -155,54 +155,65 @@
                     "Texture": "Mods\\{{ModId}}\\Food",
                     "SpriteIndex": 11
                   },
-                  "{{ModId}}_TortillaChip": {
-                    "Name": "{{ModId}}_TorttillaChip",
-                    "DisplayName": "Tortilla Chip",
-                    "Description": "A singular cruncy delight.",
-                    "Edibility": "5",
-                    "Type": "Cooking",
-                    "Category": -7,
-                    "Price": 350,
-                    "IsDrink": false,
-                    "Texture": "Mods\\{{ModId}}\\Food",
-                    "SpriteIndex": 13
-                },
-                "{{ModId}}_Masa": {
-                    "Name": "{{ModId}}_Masa",
-                    "DisplayName": "Masa",
-                    "Description": "A dough made from ground corn, used to make tortillas and tamales.",
-                    "Edibility": "5",
-                    "Type": "Cooking",
-                    "Category": -7,
-                    "Price": 350,
-                    "IsDrink": false,
-                    "Texture": "Mods\\{{ModId}}\\Food",
-                    "SpriteIndex": 14
-                },
-                "{{ModId}}_PlateofChips": {
-                    "Name": "{{ModId}}_PlateofChips",
-                    "DisplayName": "Plate of Chips",
-                    "Description": "A serving of crispy tortilla chips.",
-                    "Edibility": "5",
-                    "Type": "Cooking",
-                    "Category": -7,
-                    "Price": 350,
-                    "IsDrink": false,
-                    "Texture": "Mods\\{{ModId}}\\Food",
-                    "SpriteIndex": 15
-                },
-                "{{ModId}}_Brick": {
-                    "Name": "{{ModId}}_Brick",
-                    "DisplayName": "Brick",
-                    "Description": "A solid block of clay, used for building and crafting.",
-                    "Edibility": "-300",
-                    "Type": "Basic",
-                    "Category": -1,
-                    "Price": 350,
-                    "IsDrink": false,
-                    "Texture": "Mods\\{{ModId}}\\Objects",
-                    "SpriteIndex": 16
-            }
+                    "{{ModId}}_HazlenutMarshmallowSalsa": {
+                        "Name": "{{ModId}}_HazlenutMarshmallowSalsa",
+                        "DisplayName": "Hazlenut Marshmallow Salsa",
+                        "Description": "A sweet and nutty salsa made with hazelnuts and marshmallows.",
+                        "Edibility": "350",
+                        "Type": "Cooking",
+                        "Category": -7,
+                        "Price": 350,
+                        "IsDrink": false,
+                        "Texture": "Mods\\{{ModId}}\\Food",
+                        "SpriteIndex": 12
+                    },
+                    "{{ModId}})_Marshmallow": {
+                        "Name": "{{ModId}})_Marshmallow",
+                        "DisplayName": "Marshmallow",
+                        "Description": "A sweet and fluffy treat made from sugar and gelatin.",
+                        "Edibility": "350",
+                        "Type": "Cooking",
+                        "Category": -7,
+                        "Price": 350,
+                        "IsDrink": false,
+                        "Texture": "Mods\\{{ModId}}\\Food",
+                        "SpriteIndex": 13
+                    }
+        }
+    },
+      {
+  "Action": "Load",
+  "Target": "Mods/{{ModId}}/BookIcon, Mods/{{ModId}}/Divider, Mods/{{ModId}}/PanelFrame, Mods/{{ModId}}/Button",
+  "FromFile": "Assets/Book/{{TargetWithoutPath}}.png"
+},
+
+           {
+      "LogName": "Add Book",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+         "{{ModId}}_SalsaCookbook": {
+      "Name": "{{ModId}}_SalsaCookbook",
+      "DisplayName": "Salsa Cookbook",
+      "Description": "A cookbook for making delicious salsas!",
+      "Type": "Basic",
+      "Category": 0,
+      "Price": 100,
+
+      "Texture": "Mods/{{ModId}}/BookIcon",
+      "SpriteIndex": 0,
+
+      "Edibility": -300,
+
+      "CanBeGivenAsGift": false,
+      "CanBeTrashed": true,
+      "ExcludeFromRandomSale": true,
+      "ExcludeFromShippingCollection": true,
+
+      "CustomFields": {
+        "PeacefulEnd.Parchment/CustomFields/BookId": "{{ModId}}_SalsaCookbook"
+      }
+         }
         }
     }
     ]
