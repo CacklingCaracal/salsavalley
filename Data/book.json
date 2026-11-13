@@ -64,25 +64,25 @@
                                 },
                                 {
                                     "Type": "Paragraph",
-                                    "Text": "Tomato Salsa • Grape Salsa • Melon Salsa • Pumpkin Salsa",
+                                    "Text": "Tomato Salsa Grape Salsa Melon Salsa Pumpkin Salsa",
                                     "Alignment": "Center",
                                     "SpacingAfter": 3
                                 },
                                 {
                                     "Type": "Paragraph",
-                                    "Text": "Corn Salsa • Blueberry Salsa • Fiddlehead Salsa • Powdermelon Salsa",
+                                    "Text": "Corn Salsa Blueberry Salsa Fiddlehead Salsa Powdermelon Salsa",
                                     "Alignment": "Center",
                                     "SpacingAfter": 3
                                 },
                                 {
                                     "Type": "Paragraph",
-                                    "Text": "Starfruit Salsa • Radish Salsa • Pomegranate Salsa • Peach Salsa",
+                                    "Text": "Starfruit Salsa Radish Salsa Pomegranate Salsa Peach Salsa",
                                     "Alignment": "Center",
                                     "SpacingAfter": 3
                                 },
                                 {
                                     "Type": "Paragraph",
-                                    "Text": "Hazelnut Marshmallow Salsa • Marshmallow",
+                                    "Text": "Hazelnut Marshmallow Salsa Marshmallow",
                                     "Alignment": "Center"
                                 }
                             ]

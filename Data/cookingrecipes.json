@@ -6,7 +6,7 @@
       "Action": "EditData",
       "Target": "Data/CookingRecipes",
       "Entries": {
-        "{{ModId}}_TomatoSalsa": "256 2 260 1 399 1/1 1/{{ModId}}_Salsa/default",
+        "{{ModId}}_TomatoSalsa": "256 2 260 1 399 1/1 1/{{ModId}}_TomatoSalsa/default",
         "{{ModId}}_GrapeSalsa": "398 2 252 1 250 1 260 1/1 1/{{ModId}}_GrapeSalsa/default",
         "{{ModId}}_MelonSalsa": "254 2 399 1 260 2/1 1/{{ModId}}_MelonSalsa/default",
         "{{ModId}}_PumpkinSalsa": "276 2 260 1 282 1 399 1/1 1/{{ModId}}_PumpkinSalsa/default",
