@@ -1,5 +1,5 @@
 {
-    "TomatoSalsa.DisplayName": "TomatoSalsa",
+"TomatoSalsa.DisplayName": "TomatoSalsa",
 "TomatoSalsa.Description": "A fresh and zesty salsa made with ripe tomatoes and spices.",
 "GrapeSalsa.DisplayName": "{{ModId}}_GrapeSalsa",
 "GrapeSalsa.Description": "A sweet and tangy salsa made with fresh grapes and a hint of spice.",
@@ -30,7 +30,7 @@
   "book.title": "Salsa Cookbook",
   "book.subtitle": "A Farmer's Guide to Homemade Salsa",
   "book.welcome.heading": "Welcome to the Salsa Kitchen!",
-  "book.welcome.paragraph1": "A good salsa brings a little brightness, sweetness, or heat to the table. This cookbook gathers the recipes developed for Salsa Valley, from familiar tomato salsa to more unusual fruit-filled combinations.",
+  "book.welcome.paragraph1": "A good salsa brings a little brightness, sweetness, or heat to the table. This cookbook gathers the recipes developed for Salsa Valley.",
   "book.welcome.paragraph2": "Each recipe lists the ingredients and the amount needed. Gather everything before you begin, then let the cooking begin!",
   "book.index.heading": "Recipes",
   "book.index.line1": "Tomato Salsa • Grape Salsa • Melon Salsa • Pumpkin Salsa",
