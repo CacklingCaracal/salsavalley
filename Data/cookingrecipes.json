@@ -1,29 +1,25 @@
 {
-    "Changes": [
-
-        {
+  "Changes": [
+    {
       "LogName": "Salsa Recipes",
       "Action": "EditData",
       "Target": "Data/CookingRecipes",
       "Entries": {
-        "{{ModId}}_TomatoSalsa": "256 2 260 1 399 1/1 1/{{ModId}}_TomatoSalsa/default",
-        "{{ModId}}_GrapeSalsa": "398 2 252 1 250 1 260 1/1 1/{{ModId}}_GrapeSalsa/default",
-        "{{ModId}}_MelonSalsa": "254 2 399 1 260 2/1 1/{{ModId}}_MelonSalsa/default",
-        "{{ModId}}_PumpkinSalsa": "276 2 260 1 282 1 399 1/1 1/{{ModId}}_PumpkinSalsa/default",
-        "{{ModId}}_CornSalsa": "270 2 256 1 260 1 250 1/1 1/{{ModId}}_CornSalsa/default",
-        "{{ModId}}_BlueberrySalsa": "258 2 278 1 300 1 250 1 260 1/1 1/{{ModId}}_BlueberrySalsa/default",
-        "{{ModId}}_FiddleheadSalsa": "254 2 260 1 256 1 270 1/1 1/{{ModId}}_FiddleheadSalsa/default",
-        "{{ModId}}_PowdermelonSalsa": "powdermelon 1 260 1 399 1 634 1 278 1 264 1/1 1/{{ModId}}_PowdermelonSalsa/default",
-        "{{ModId}}_StarfruitSalsa": "268 1 266 1 260 1 152 1/1 1/{{ModId}}_StarfruitSalsa/default",
-        "{{ModId}}_RadishSalsa": "264 1 266 1 247 1 248 1 260 1/1 1/{{ModId}}_RadishSalsa/default",
-        "{{ModId}}_PomegranateSalsa": "637 1 276 2 260 1 638 1/1 1/{{ModId}}_PomegranateSalsa/default",
-        "{{ModId}}_PeachSalsa": "636 1 635 1 260 2 248 1/1 1/{{ModId}}_PeachSalsa/default",
-        "{{ModId}}_HazlenutMarshmallowSalsa": "(O)408 2 (O)260 1 (O)280 1 {{ModId}}_Marshmallow 1/1 1/{{ModId}}_HazlenutMarshmallowSalsa/default",
-        "{{ModId}}_Marshmallow": "(O)245 1 (O)92 1/1 1/{{ModId}}_Marshmallow/default"
-
-
+        "{{ModId}}_TomatoSalsa": "256 2 260 1 399 1/1 1/{{ModId}}_TomatoSalsa/{{i18n:TomatoSalsa.DisplayName}}",
+        "{{ModId}}_GrapeSalsa": "398 2 252 1 250 1 260 1/1 1/{{ModId}}_GrapeSalsa/{{i18n:GrapeSalsa.DisplayName}}",
+        "{{ModId}}_MelonSalsa": "254 2 399 1 260 2/1 1/{{ModId}}_MelonSalsa/{{i18n:MelonSalsa.DisplayName}}",
+        "{{ModId}}_PumpkinSalsa": "276 2 260 1 282 1 399 1/1 1/{{ModId}}_PumpkinSalsa/{{i18n:PumpkinSalsa.DisplayName}}",
+        "{{ModId}}_CornSalsa": "270 2 256 1 260 1 250 1/1 1/{{ModId}}_CornSalsa/{{i18n:CornSalsa.DisplayName}}",
+        "{{ModId}}_BlueberrySalsa": "258 2 278 1 300 1 250 1 260 1/1 1/{{ModId}}_BlueberrySalsa/{{i18n:BlueberrySalsa.DisplayName}}",
+        "{{ModId}}_FiddleheadSalsa": "254 2 260 1 256 1 270 1/1 1/{{ModId}}_FiddleheadSalsa/{{i18n:FiddleheadSalsa.DisplayName}}",
+        "{{ModId}}_PowdermelonSalsa": "powdermelon 1 260 1 399 1 634 1 278 1 264 1/1 1/{{ModId}}_PowdermelonSalsa/{{i18n:PowdermelonSalsa.DisplayName}}",
+        "{{ModId}}_StarfruitSalsa": "268 1 266 1 260 1 152 1/1 1/{{ModId}}_StarfruitSalsa/{{i18n:StarfruitSalsa.DisplayName}}",
+        "{{ModId}}_RadishSalsa": "264 1 266 1 247 1 248 1 260 1/1 1/{{ModId}}_RadishSalsa/{{i18n:RadishSalsa.DisplayName}}",
+        "{{ModId}}_PomegranateSalsa": "637 1 276 2 260 1 638 1/1 1/{{ModId}}_PomegranateSalsa/{{i18n:PomegranateSalsa.DisplayName}}",
+        "{{ModId}}_PeachSalsa": "636 1 635 1 260 2 248 1/1 1/{{ModId}}_PeachSalsa/{{i18n:PeachSalsa.DisplayName}}",
+        "{{ModId}}_HazlenutMarshmallowSalsa": "408 2 260 1 280 1 {{ModId}}_Marshmallow 1/1 1/{{ModId}}_HazlenutMarshmallowSalsa/{{i18n:HazlenutMarshmallowSalsa.DisplayName}}",
+        "{{ModId}}_Marshmallow": "245 2/1 1/{{ModId}}_Marshmallow/{{i18n:Marshmallow.DisplayName}}"
       }
     }
   ]
-    }
-  
+}

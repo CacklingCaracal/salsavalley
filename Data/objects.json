@@ -9,8 +9,8 @@
             "Entries": {
                 "{{ModId}}_TomatoSalsa": {
                     "Name": "{{ModId}}_TomatoSalsa",
-                    "DisplayName": "TomatoSalsa",
-                    "Description": "A fresh and zesty salsa made with ripe tomatoes and spices.",
+                    "DisplayName": "{{i18n:TomatoSalsa.DisplayName}}",
+                    "Description": "{{i18n:TomatoSalsa.Description}}",
                     "Edibility": "69",
                     "Type": "Cooking",
                     "Category": -7,
@@ -21,8 +21,8 @@
                 },
                 "{{ModId}}_GrapeSalsa": {
                     "Name": "{{ModId}}_GrapeSalsa",
-                    "DisplayName": "{{ModId}}_GrapeSalsa",
-                    "Description": "A sweet and tangy salsa made with fresh grapes and a hint of spice.",
+                    "DisplayName": "{{i18n:GrapeSalsa.DisplayName}}",
+                    "Description": "{{i18n:GrapeSalsa.Description}}",
                     "Edibility": "130",
                     "Type": "Cooking",
                     "Category": -7,
@@ -33,8 +33,8 @@
                 },
                     "{{ModId}}_MelonSalsa": {
                     "Name": "{{ModId}}_MelonSalsa",
-                    "DisplayName": "MelonSalsa",
-                    "Description": "Sweet and spicy.",
+                    "DisplayName": "{{i18n:MelonSalsa.DisplayName}}",
+                    "Description": "{{i18n:MelonSalsa.Description}}",
                     "Edibility": "35",
                     "Type": "Cooking",
                     "Category": -7,
@@ -45,8 +45,8 @@
                 },
                   "{{ModId}}_PumpkinSalsa": {
                     "Name": "{{ModId}}_PumpkinSalsa",
-                    "DisplayName": "Pumpkin Salsa",
-                    "Description": "A delicious blend of pumpkin and spices.",
+                    "DisplayName": "{{i18n:PumpkinSalsa.DisplayName}}",
+                    "Description": "{{i18n:PumpkinSalsa.Description}}",
                     "Edibility": "350",
                     "Type": "Cooking",
                     "Category": -7,
@@ -57,8 +57,8 @@
                 },
                 "{{ModId}}_CornSalsa": {
                     "Name": "{{ModId}}_CornSalsa",
-                    "DisplayName": "Corn Salsa",
-                    "Description": "A fresh and zesty salsa made with sweet corn and spices.",
+                    "DisplayName": "{{i18n:CornSalsa.DisplayName}}",
+                    "Description": "{{i18n:CornSalsa.Description}}",
                     "Edibility": "130",
                     "Type": "Cooking",
                     "Category": -7,
@@ -70,8 +70,8 @@
             },
              "{{ModId}}_BlueberrySalsa": {
                     "Name": "{{ModId}}_BlueberrySalsa",
-                    "DisplayName": "Blueberry Salsa",
-                    "Description": "A sweet salsa made with fresh blueberries and a mild kick.",
+                    "DisplayName": "{{i18n:BlueberrySalsa.DisplayName}}",
+                    "Description": "{{i18n:BlueberrySalsa.Description}}",
                     "Edibility": "130",
                     "Type": "Cooking",
                     "Category": -7,
@@ -82,8 +82,8 @@
                 },
                  "{{ModId}}_FiddleheadSalsa": {
                     "Name": ".FiddleheadSalsa",
-                    "DisplayName": "Fiddlehead Salsa",
-                    "Description": "A zesty salsa made with fiddlehead ferns and spices.",
+                    "DisplayName": "{{i18n:FiddleheadSalsa.DisplayName}}",
+                    "Description": "{{i18n:FiddleheadSalsa.Description}}",
                     "Edibility": "350",
                     "Type": "Cooking",
                     "Category": -7,
@@ -95,8 +95,8 @@
                 },
                  "{{ModId}}_PowdermelonSalsa": {
                     "Name": "{{ModId}}_PowdermelonSalsa",
-                    "DisplayName": "Powdermelon Salsa",
-                    "Description": "A fresh and fruity salsa made with powdermelon and spices.",
+                    "DisplayName": "{{i18n:PowdermelonSalsa.DisplayName}}",
+                    "Description": "{{i18n:PowdermelonSalsa.Description}}",
                     "Edibility": "350",
                     "Type": "Cooking",
                     "Category": -7,
@@ -108,8 +108,8 @@
                 },
                  "{{ModId}}_StarfruitSalsa": {
                     "Name": "{{ModId}}_StarfruitSalsa",
-                    "DisplayName": "Starfruit Salsa",
-                    "Description": "A tropical salsa made with starfruit and spices.",
+                    "DisplayName": "{{i18n:StarfruitSalsa.DisplayName}}",
+                    "Description": "{{i18n:StarfruitSalsa.Description}}",
                     "Edibility": "350",
                     "Type": "Cooking",
                     "Category": -7,
@@ -120,8 +120,8 @@
                 },
                  "{{ModId}}_RadishSalsa": {
                     "Name": "{{ModId}}_RadishSalsa",
-                    "DisplayName": "Radish Salsa",
-                    "Description": "A spicy salsa made with fresh radishes and herbs.",
+                    "DisplayName": "{{i18n:RadishSalsa.DisplayName}}",
+                    "Description": "{{i18n:RadishSalsa.Description}}",
                     "Edibility": "350",
                     "Type": "Cooking",
                     "Category": -7,
@@ -133,8 +133,8 @@
                 },
                  "{{ModId}}_PomegranateSalsa": {
                     "Name": "{{ModId}}_PomegranateSalsa",
-                    "DisplayName": "Pomegranate Salsa",
-                    "Description": "A sweet and tangy salsa made with fresh pomegranates.",
+                    "DisplayName": "{{i18n:PomegranateSalsa.DisplayName}}",
+                    "Description": "{{i18n:PomegranateSalsa.Description}}",
                     "Edibility": "350",
                     "Type": "Cooking",
                     "Category": -7,
@@ -145,8 +145,8 @@
                  },
                   "{{ModId}}_PeachSalsa": {
                     "Name": "{{ModId}}_PeachSalsa",
-                    "DisplayName": "Peach Salsa",
-                    "Description": "A sweet and spicy salsa made with fresh peaches.",
+                    "DisplayName": "{{i18n:PeachSalsa.DisplayName}}",
+                    "Description": "{{i18n:PeachSalsa.Description}}",
                     "Edibility": "350",
                     "Type": "Cooking",
                     "Category": -7,
@@ -157,8 +157,8 @@
                   },
                     "{{ModId}}_HazlenutMarshmallowSalsa": {
                         "Name": "{{ModId}}_HazlenutMarshmallowSalsa",
-                        "DisplayName": "Hazlenut Marshmallow Salsa",
-                        "Description": "A sweet and nutty salsa made with hazelnuts and marshmallows.",
+                        "DisplayName": "{{i18n:HazlenutMarshmallowSalsa.DisplayName}}",
+                        "Description": "{{i18n:HazlenutMarshmallowSalsa.Description}}",
                         "Edibility": "350",
                         "Type": "Cooking",
                         "Category": -7,
@@ -167,10 +167,10 @@
                         "Texture": "Mods\\{{ModId}}\\Food",
                         "SpriteIndex": 12
                     },
-                    "{{ModId}})_Marshmallow": {
-                        "Name": "{{ModId}})_Marshmallow",
-                        "DisplayName": "Marshmallow",
-                        "Description": "A sweet and fluffy treat made from sugar and gelatin.",
+                    "{{ModId}}_Marshmallow": {
+                        "Name": "{{ModId}}_Marshmallow",
+                        "DisplayName": "{{i18n:Marshmallow.DisplayName}}",
+                        "Description": "{{i18n:Marshmallow.Description}}",
                         "Edibility": "350",
                         "Type": "Cooking",
                         "Category": -7,
@@ -178,6 +178,7 @@
                         "IsDrink": false,
                         "Texture": "Mods\\{{ModId}}\\Food",
                         "SpriteIndex": 13
+
                     }
         }
     },
