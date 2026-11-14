@@ -36,7 +36,7 @@
                 "{{ModId}}_SendCookbookTriggerAction": {
                     "Id": "{{ModId}}_SendCookbookTriggerAction",
                     "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HEARTS Current Kent 3",
+                    "Condition": "PLAYER_FARMHOUSE_UPGRADE Current 1 1",
                     "Action": "AddMail Current {{ModId}}_CookbookMail"
                 }
             }
