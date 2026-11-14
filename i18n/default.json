@@ -119,5 +119,8 @@
   "recipe.hazelnut-marshmallow-salsa.ingredient.4": "1 x Marshmallow",
   "recipe.marshmallow.name": "Marshmallow",
   "recipe.marshmallow.ingredients_heading": "Ingredients",
-  "recipe.marshmallow.ingredient.1": "2 x Sugar"
+  "recipe.marshmallow.ingredient.1": "2 x Sugar",
+  "CookbookMail.1": "Hello!",
+    "CookbookMail.2": "Here is a little guide to all the salas you can make in this mod",
+    "CookbookMail.3": "Enjoy! - Cara"
 }

@@ -27,7 +27,29 @@
       "Action": "Load",
       "Target": "Mods/{{ModId}}/food",
       "FromFile": "Assets/food.png"
+    },
+    {
+    "LogName": "Trigger Action Edit",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+     "Entries": {
+                "{{ModId}}_SendCookbookTriggerAction": {
+                    "Id": "{{ModId}}_SendCookbookTriggerAction",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HEARTS Current Kent 3",
+                    "Action": "AddMail Current {{ModId}}_CookbookMail"
+                }
+            }
+        },
+      {
+          "LogName": "Add Cookbook Mail",
+        "Action": "EditData",
+        "Target": "Data/Mail",
+        "Entries": {
+            "{{ModId}}_CookbookMail": "{{i18n:CookbookMail.1}}^^{{i18n:CookbookMail.2}}^^{{i18n:CookbookMail.3}} %item id {{ModId}}_SalsaCookbook 1 %% [#]CookbookMail"
+        }
     }
+    
 
     ]
 }
